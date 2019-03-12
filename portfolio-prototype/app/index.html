@@ -1,47 +1,87 @@
+<!-- some inspiration -->
+<!-- https://medium.freecodecamp.org/15-web-developer-portfolios-to-inspire-you-137fb1743cae -->
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>Neurofy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <div class="portfolio-prototype">
-        <header class="navigation">
-            <div class="neurofy-home">
-                <h1>Neurofy</h1>
+        <div class="navigation">
+            <div class="left-nav">
+                <h1><a href="#">Neurofy</a></h1>
             </div>
-        <nav class="menu">
-            <button aria-expanded="false" aria-controls="menu-list">
-                <span class="open">☰</span>
-                <span class="close">×</span>
-                Menu
-            </button>
-            <ul id="menu-list">
-                <li class="portfolio-nav links">
-                    <a href="#">Portfolio</a>
-                </li>
-                <li class="about-nav links">
-                    <a href="#">About</a>
-                </li>
-                <li class="contact-nav links">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
+            <div class="right-nav">
+                <a href="#">Portfolio</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
 
-        </header>
         <section class="projects">
-                <div class="project-1"></div>
-                <div class="project-2"></div>
-                <div class="project-3"></div>
-                <div class="project-4"></div>
-                <div class="project-5"></div>
-                <div class="project-6"></div>
-            </section>
-        <section class="social-media"></section>
+            <div class="project-1"></div>
+            <div class="project-2"></div>
+            <div class="project-3"></div>
+            <div class="project-4"></div>
+            <div class="project-5"></div>
+            <div class="project-6"></div>
+        </section>
+        <footer class="social-media">
+            <nav class="footer-nav">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-angellist"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </nav>
+        </footer>
     </div>
     <script src="scripts/main.js"></script> 
 </body>
+
+
+
+<!-- <header class="navigation">
+    <div class="neurofy-home">
+        <h1>Neurofy</h1>
+    </div>
+    <ul id="menu-list">
+        <li class="portfolio-nav links">
+            <a href="#">Portfolio</a>
+        </li>
+        <li class="about-nav links">
+            <a href="#">About</a>
+        </li>
+        <li class="contact-nav links">
+            <a href="#">Contact</a>
+        </li>
+    </ul> 
+    </header>
+    
+-->
+    
+            <!--             
+            <nav class="menu">
+                <button aria-expanded="false" aria-controls="menu-list">
+                    <span class="open">☰</span>
+                    <span class="close">×</span>
+                    Menu
+                </button>
+                <ul id="menu-list">
+                    <li class="portfolio-nav links">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="about-nav links">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="contact-nav links">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav> 
+            -->
 </html>

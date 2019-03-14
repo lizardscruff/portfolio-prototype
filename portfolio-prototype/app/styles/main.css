@@ -41,8 +41,9 @@ h6 {
 
 .portfolio-prototype {
     display: grid;
-    grid-template-rows: auto 1fr 1fr auto;
-    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 20px;
+    /* height: 100vh; */
 
 }
 .portfolio-prototype a {
@@ -62,10 +63,46 @@ h6 {
     flex: 1;
 }
 
+/* Projects Page */
+.albums {
+    /* background: #2b2b2b; */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 25px 0;
+}
+
+.album {
+    display: grid;
+    grid-gap: 10px;
+    /* column 1 is a hard 150px */
+    /* column 2 fills up the rest of the space */
+    grid-template-columns: 150px 1fr;
+    /* the items(more specifically the text) align center vertically */
+    align-items: center;
+
+    /* fancy stuff to make it look nicer */
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 20px;
+  }
+
+  .album__artwork {
+    width: 100%;
+  }
+
+
 /* Footer Social Media Links */
 .footer-nav i {
     color: white;
 }
+
+
+
+
 
 
 

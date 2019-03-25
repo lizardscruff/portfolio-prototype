@@ -11,7 +11,6 @@ html {
         Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 900;
     font-size: 25px;
-    color: slateblue;
     /* text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); */
     margin: 0;
     padding: 40px;
@@ -50,13 +49,12 @@ h6 {
     text-decoration: none;
     color: slateblue;
     padding: 10px;
-    background: slateblue;
 }
 
 /* Navigation */
 .navigation {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .left-nav {
@@ -100,56 +98,8 @@ h6 {
     color: white;
 }
 
-
-
-
-
-
-
-/* 
-#menu-list {
-    list-style-type: none;
+@media (max-width: 725px) {
+    .right-nav {
+        transform: rotateY(90deg);
+    }
 }
-
-#menu-list a {
-    text-decoration: none;
-    color: slateblue;
-}
-
-.navigation {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr;
-    grid-auto-flow: column;
-    text-align: center
-} 
-*/
-
-
-
-/* Each item in our grid will contain numbers
-.item {
-    /* We center the contents of these items. You can also do this with flexbox too! */
-    /* display: grid;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid rgba(0, 0, 0, 0.03);
-    border-radius: 3px;
-    font-size: 35px;
-    background-color: var(--yellow); best colour */
-/* }
-
-.item p {
-    margin: 0 0 5px 0;
-}
- */
-
-
-
- /* ul has default padding */
- /* remove like so: */
- /* ul {
-     padding-left: 0;
- } */
-
-
